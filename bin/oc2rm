@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby -n
+$LOAD_PATH << File.join(File.dirname(File.expand_path(__FILE__)), '..', 'lib')
+require 'oc2rm'
+
+puts Oc2Rm($_)
