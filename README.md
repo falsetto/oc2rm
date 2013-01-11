@@ -2,7 +2,7 @@
 
 Converts a teeny bit of Objective-C to RubyMotion using naïve regular expressions.
 
-You can expect Oc2Rm to save you 17(+/-17) keystrokes per Objective-C snippet–provided that you assign `pbpaste | oc2rm | pbcopy` to a global Quicksilver trigger.
+You can expect Oc2Rm to save you 17(+/-17) keystrokes per Objective-C snippet–provided that you assign `$ pbpaste | oc2rm | pbcopy` to a global Quicksilver trigger.
 
 ## Example
 
