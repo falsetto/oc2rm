@@ -36,6 +36,10 @@ class TestOc2Rm < MiniTest::Unit::TestCase
     Oc2Rm('YES').must_equal 'true'
   end
 
+  def test_no_to_false
+    Oc2Rm('NO').must_equal 'false'
+  end
+
   def test_remove_semicolons
     Oc2Rm(';').must_equal ''
   end

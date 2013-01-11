@@ -8,6 +8,7 @@ def Oc2Rm(input)
   input.gsub! /[A-Z]\w+\s\*?(\w+)/, '\1'
   # Convert booleans
   input.gsub! 'YES', 'true'
+  input.gsub! 'NO', 'false'
   # Convert calls to super
   input.gsub! /super\.\S+/, 'super'
   # Convert dereference operators
